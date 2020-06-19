@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    padding: 10px 2.5%;
+    background-color: transparent;
+    transition: background-color 1s ease;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.navLogo{
+    width: 150px;
+}
+
+.navLinks{
+    font-size: 1.5rem;
+    word-spacing: 1rem;
+}
+
+.navIcons{
+    word-spacing: 0.5rem;
+}
+
+.navFill{
+    background-color: hsl(210, 5%, 16%);
+}
+
+#cover{
+    position: relative;
+    height: 100vh;
+    background-image: url(images/SFWBlue.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.lorem{
+    position: relative;
+    height: 100vh;
+    /* background-image: url(images/SFWBlue.jpg); */
+    background-size: cover;
+    background-position: 50%;
+}

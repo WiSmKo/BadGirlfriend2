@@ -1,0 +1,47 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200; 
+}
+
+.montserratExtraLight {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.montserratExtraLightItalic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.montserratRegular {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.montserratBold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.letterSpaceEight{
+    letter-spacing: 8px;
+}
+
+.halfSize{
+    width: 50%;
+}
+
+.icons{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    font-size: 2rem;
+}
+
+.icons:hover{
+    color:rgb(177, 177, 177);
+}
+
+#profileImage{
+    border-radius: 50%;
+}
